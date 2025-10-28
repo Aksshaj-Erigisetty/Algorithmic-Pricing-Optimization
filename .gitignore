@@ -1,0 +1,35 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore datasets and archives
+*.csv
+*.zip
+*.xls
+*.xlsx
+data/
+datasets/
+
+# Ignore model and large binary files
+*.pkl
+*.h5
+*.joblib
+
+# Ignore temporary logs or outputs
+*.log
+*.tmp
+*.bak
